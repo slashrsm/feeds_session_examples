@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the feeds_example_rss_importer feature.
+ */
+
+include_once 'feeds_example_rss_importer.features.inc';

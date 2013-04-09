@@ -1,0 +1,16 @@
+name = feeds_example_rss
+core = 7.x
+package = Features
+php = 5.2.4
+dependencies[] = features
+dependencies[] = node
+dependencies[] = text
+features[features_api][] = api:1
+features[field_base][] = body
+features[field_base][] = field_author
+features[field_base][] = field_link
+features[field_instance][] = node-rss_article-body
+features[field_instance][] = node-rss_article-field_author
+features[field_instance][] = node-rss_article-field_link
+features[node][] = feed
+features[node][] = rss_article
