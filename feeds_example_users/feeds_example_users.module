@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the feeds_example_users feature.
+ */
+
+include_once 'feeds_example_users.features.inc';
